@@ -30,7 +30,6 @@ JOBS = [
 ]
 
 
-
 @app.route("/") 
 def hello(): 
     return render_template("home.html", jobs=JOBS)
